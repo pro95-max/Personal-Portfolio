@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.pic1 {
+    width: 170px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#wel {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.75;
+    background: linear-gradient(red 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.wel_inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+}
+
+.line {
+    width: 70px;
+    height: 7px;
+    background-color: black;
+    margin: 8px auto;
+
+}
+
+#bio {
+    text-align: center;
+    padding: 50px
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    background: white;
+}
+
+.links {
+    display: inline;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 25px;
+}
+.links:hover {
+    background-color: aqua;
+    font-size: 30px;
+    text-decoration: underline;
+}
+a{
+    text-decoration:none;
+    text-shadow: 2px 2px grey;
+    color: chartreuse;
+    text-align: center
+}
+#write a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color:darkgoldenrod !important;
+}
+#contact{
+    background-color: firebrick;
+}
+#contact iframe{
+  width: 100%;  
+}
+.icon h3{
+    display:inline;
+}
+.icon a{
+    color: white;
+    text-shadow: none;
+}
+
